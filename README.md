@@ -38,7 +38,7 @@
 #### git clone  
 > Clona un repositorio en una carpeta específica.
 #### git init   
-> Crea un repositorio vacío en la carpeta.
+> Inizializa un repositorio nuevo.
 
 [Volver al inicio](#temario)
 
@@ -49,7 +49,7 @@
 #### git config --global user.email "correo@gmail.com" 
 > Sirve para identificarse con un email.
 #### grit config --global -e 
-> Sirve para ver la información global de nuestro repositorio(si quieren salir es :q sin guardar).
+> Sirve para ver la información global de nuestro repositorio(si quieren salir es :q sin guardar y :w con guardar).
 
 [Volver al inicio](#temario)
 
@@ -71,13 +71,13 @@
 ## 4 Trabajando con Git (add, mv, reset, rm, commit).
 :package:
 #### git add -- . 
-> Agrega todos los elementos a la carpeta git con el .
+> Agrega todos los elementos a la carpeta git con el ..
 #### git add *.png 
 > Agrega todos los elementos a la carpeta pero con extensión .png.
 #### git add img/ 
 > Agrega todos los elementos de la carpeta img.
 #### git add "*.txt" 
-> Agrega todos los archivos modificados txt del proyecto.
+> Agrega todos los archivos .txt del proyecto.
 #### git add *.txt 
 > Agrega todos los archivos modificados del Directorio actual.
 #### git add css/*.css 
