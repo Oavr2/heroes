@@ -8,20 +8,20 @@
    * status
    * show 
    * reflog
-4. [Trabajando con Git](#4-trabajando-con-git-add-mv-reset-reflog-rm-commit)
+4. [Trabajando con Git](#4-trabajando-con-git-add-mv-reset-rm-commit)
    * add
    * mv
-   * reset
-   * reflog 
+   * reset 
    * rm
    * commit
 5. [Ignorando Archivos](#5-ignorando-archivos)
-6. [Trabajando con Ramas](#6-trabajando-con-ramas-branch-checkout-diff-tags-rebase)
+6. [Trabajando con Ramas](#6-trabajando-con-ramas-branch-checkout-diff-tags-rebase-merge)
    * branch
    * checkout
    * diff
    * tags
    * rebase
+   * merge
 7. [Trabajando colaborativamente](#7-trabajando-colaborativamente-fetch-pull-push)
    * fetch
    * pull
@@ -58,18 +58,16 @@
 > Muestra los commit hechos desde el último hasta el más reciente.
 #### git log --oneline 
 > Muestra los logs pero con commit cortos y los nombres.
-#### git show v1.0.0 
-> Muestra información de un tag.
 #### git status 
 > Muestra en qué branch estamos trabajando, si hay archivos en rojo esos están modificados o fuera del stage y si están en verde es porque ya están en el stage para poder hacer un commit.
+#### git show v1.0.0 
+> Muestra información de un tag.
 #### git reflog 
 > Sirve para ver el historial de logs, esta todo lo que se ha hecho, sirve para reestablecer versiones que no se encuentran visibles en el log. 
-#### git rm directorio.html 
-> Remueve del proyecto el archivo escogido.
 
 [Volver al inicio](#temario)
 
-## 4 Trabajando con Git (add, mv, reset, reflog, rm, commit).
+## 4 Trabajando con Git (add, mv, reset, rm, commit).
 
 #### git add -- . 
 > Agrega todos los elementos a la carpeta git con el .
@@ -85,12 +83,6 @@
 > Agrega todos los .css de la carpeta css.
 #### git add -A 
 > Agregar todos los archivos que fueron modificados o que no están en el stage.
-#### git commit -m "Nombre"  
-> Hace un commit, es decir lo saca del stage para guardarlo.
-#### git commit -am “Mensaje” 
-> Agrega y pone un mensaje de inmediato, solo sirve si el archivo fue modificado, si el archivo no ha entrado en el repositorio anteriormente no servirá.
-#### git commit --amend -m “mensaje actualizado” 
-> Actualiza el log del último commit.
 #### git mv heroes.html villano.html  
 > Cambia el nombre de un archivo (actual, nuevo).
 #### git reset *.xml  
@@ -105,17 +97,26 @@
 > Devuelve todo a una versión que uno escoja, tener en cuenta que esto borra todo lo que uno hizo antes de esta versión.
 #### git rm archivo 
 > Borra un archivo, tener en cuenta que para que esto surta efecto hay que hacer un add y commit después de removerlo.
+#### git rm directorio.html 
+> Remueve del proyecto el archivo escogido.
+#### git commit -m "Nombre"  
+> Hace un commit, es decir lo saca del stage para guardarlo.
+#### git commit -am “Mensaje” 
+> Agrega y pone un mensaje de inmediato, solo sirve si el archivo fue modificado, si el archivo no ha entrado en el repositorio anteriormente no servirá.
+#### git commit --amend -m “mensaje actualizado” 
+> Actualiza el log del último commit.
 
 [Volver al inicio](#temario)
 
 ## 5 Ignorando Archivos.
+
 #### Para poder ignorar archivos que no encontremos que sean relevantes subir al repositorio se crea un archivo .gitignore dentro de la raíz del proyecto.
 #### Después dentro del archivo se pone los archivos que se quieran ignorar, pueden ser archivos, directorios, etc.
 #### Si quieres ignorar un conjunto de archivos puedes poner la extensión de los archivos que quieras ignorar.
 
 [Volver al inicio](#temario)
 
-## 6 Trabajando con Ramas (branch, checkout, diff, tags, rebase).
+## 6 Trabajando con Ramas (branch, checkout, diff, tags, rebase, merge).
 
 #### git branch 
 > Verifica las ramas creadas.
@@ -129,8 +130,6 @@
 > Te cambia para trabajar en esa rama.
 #### git checkout -b rama_nueva 
 > Crea la rama y se une automáticamente. 
-#### git merge nombre_rama 
-> Une la rama nombre_rama hacia el master, hay que estar en el máster para poder unirlas.
 #### git checkout -- .   
 > Restaura a la última versión en el cual se hizo el commit.
 #### git diff 
@@ -153,6 +152,8 @@
 > Si se está en la rama master se ocupa este comando para dejar a nombre_rama antes que al master, queda de más decir que al rebasar todos los cambios hechos en master ahora se agregaran a nombre_rama.
 #### git rebase master 
 > Si se está en la rama nombre_rama se puede ocupar este comando.
+#### git merge nombre_rama 
+> Une la rama nombre_rama hacia el master, hay que estar en el máster para poder unirlas.
 
 [Volver al inicio](#temario)
 
