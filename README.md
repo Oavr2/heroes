@@ -4,28 +4,28 @@
 1. [Comenzando nuestra área de trabajo](#1-comenzando-nuestra-área-de-trabajo)
 2. [Identificandonos](#2-identificandonos)
 3. [Examinando el historial y los estados](#3-examinando-el-historial-y-los-estados-log-status-show-reflog)
-   * log
-   * status
-   * show 
-   * reflog
+   * [log](#git-log)
+   * [status]()
+   * [show]()
+   * [reflog]()
 4. [Trabajando con Git](#4-trabajando-con-git-add-mv-reset-rm-commit)
-   * add
-   * mv
-   * reset 
-   * rm
-   * commit
+   * [add]()
+   * [mv]()
+   * [reset]() 
+   * [rm]()
+   * [commit]()
 5. [Ignorando Archivos](#5-ignorando-archivos)
 6. [Trabajando con Ramas](#6-trabajando-con-ramas-branch-checkout-diff-tags-rebase-merge)
-   * branch
-   * checkout
-   * diff
-   * tags
-   * rebase
-   * merge
+   * [branch]()
+   * [checkout]()
+   * [diff]()
+   * [tags]()
+   * [rebase]()
+   * [merge]()
 7. [Trabajando colaborativamente](#7-trabajando-colaborativamente-fetch-pull-push)
-   * fetch
-   * pull
-   * push
+   * [fetch]()
+   * [pull]()
+   * [push]()
 8. [Shortcuts](#8-shortcuts-atajos)
 9. [GITHUB](#9-github)
 
