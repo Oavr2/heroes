@@ -1,6 +1,7 @@
 # Recordatorio personalizado sobre el uso de Git y GitHub :octocat:
 
-## Temario :pencil:
+## Temario 
+:pencil:
 1. [Comenzando nuestra área de trabajo](#1-comenzando-nuestra-área-de-trabajo)
 2. [Identificandonos](#2-identificandonos)
 3. [Examinando el historial y los estados](#3-examinando-el-historial-y-los-estados-log-status-show-reflog)
@@ -109,7 +110,7 @@
 [Volver al inicio](#temario)
 
 ## 5 Ignorando Archivos.
-:hear_no_evil::deciduous_tree:
+:hear_no_evil:
 #### Para poder ignorar archivos que no encontremos que sean relevantes subir al repositorio se crea un archivo .gitignore dentro de la raíz del proyecto.
 #### Después dentro del archivo se pone los archivos que se quieran ignorar, pueden ser archivos, directorios, etc.
 #### Si quieres ignorar un conjunto de archivos puedes poner la extensión de los archivos que quieras ignorar.
@@ -117,7 +118,7 @@
 [Volver al inicio](#temario)
 
 ## 6 Trabajando con Ramas (branch, checkout, diff, tags, rebase, merge).
-:evergreen_tree:
+:evergreen_tree::deciduous_tree:
 #### git branch 
 > Verifica las ramas creadas.
 #### git branch nombre_rama  
