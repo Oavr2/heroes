@@ -27,7 +27,7 @@
    * pull
    * push
 8. [Shortcuts](#8-shortcuts-atajos)
-9. GITHUB(#9-github)
+9. [GITHUB](#9-github)
 
 ## 1 Comenzando nuestra área de trabajo.
 #### git help 
