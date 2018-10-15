@@ -6,7 +6,7 @@
 3. [Examinando el historial y los estados](#3-examinando-el-historial-y-los-estados-log-status-show-reflog)
    * [log](#git-log)
    * [status](#git-status)
-   * [show](#git-show-v1.0.0)
+   * [show](#git-show-v100)
    * [reflog](#git-reflog)
 4. [Trabajando con Git](#4-trabajando-con-git-add-mv-reset-rm-commit)
    * [add](#git-add----)
