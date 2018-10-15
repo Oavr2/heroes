@@ -30,6 +30,12 @@
 8. [Shortcuts](#8-shortcuts-atajos)
 9. [GITHUB](#9-github)
 
+## Si estas retomando todo lo que es git o te ha ocurrido algun error, consulta la seccion de casos.
+
+:eyes:
+
+[Ir a Casos](https://github.com/Oavr2/heroes/blob/master/casos.md#casos)
+
 ## 1 Comenzando nuestra área de trabajo.
 #### git help 
 > Sirve para ver información de ayuda en git pero general.
