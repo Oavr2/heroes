@@ -41,8 +41,8 @@
 
 [Volver al inicio](#temario)
 
-## 2 Identificandonos:person_with_blond_hair::woman:
-
+## 2 Identificandonos
+:person_with_blond_hair::woman:
 #### git config --global user.name "Oscar" 
 > Sirve para identificarse con un nombre.
 #### git config --global user.email "correo@gmail.com" 
@@ -52,8 +52,8 @@
 
 [Volver al inicio](#temario)
 
-## 3 Examinando el historial y los estados (log, status, show, reflog):coffee:
- 
+## 3 Examinando el historial y los estados (log, status, show, reflog)
+:coffee:
 #### git log 
 > Muestra los commit hechos desde el último hasta el más reciente.
 #### git log --oneline 
@@ -68,7 +68,7 @@
 [Volver al inicio](#temario)
 
 ## 4 Trabajando con Git (add, mv, reset, rm, commit).
-
+:package:
 #### git add -- . 
 > Agrega todos los elementos a la carpeta git con el .
 #### git add *.png 
@@ -109,7 +109,7 @@
 [Volver al inicio](#temario)
 
 ## 5 Ignorando Archivos.
-
+:hear_no_evil::deciduous_tree:
 #### Para poder ignorar archivos que no encontremos que sean relevantes subir al repositorio se crea un archivo .gitignore dentro de la raíz del proyecto.
 #### Después dentro del archivo se pone los archivos que se quieran ignorar, pueden ser archivos, directorios, etc.
 #### Si quieres ignorar un conjunto de archivos puedes poner la extensión de los archivos que quieras ignorar.
@@ -117,7 +117,7 @@
 [Volver al inicio](#temario)
 
 ## 6 Trabajando con Ramas (branch, checkout, diff, tags, rebase, merge).
-
+:evergreen_tree:
 #### git branch 
 > Verifica las ramas creadas.
 #### git branch nombre_rama  
@@ -158,7 +158,7 @@
 [Volver al inicio](#temario)
 
 ## 7 Trabajando colaborativamente (fetch, pull, push).
-
+:couple:
 #### fetch     
 > Comprueba si hay cambios en el repositorio remoto ante nuestro repo local.
 #### pull       
@@ -169,7 +169,7 @@
 [Volver al inicio](#temario)
 
 ## 8 Shortcuts (Atajos!).
-
+:thumbsup:
 #### git config --global alias.nombre_alias "comando" 
 > Creamos un shortcut personalizado.
 #### git config --global -e  
@@ -181,7 +181,7 @@
 [Volver al inicio](#temario)
 
 ## 9 GITHUB.
-
+:kissing_heart::octocat:
 #### Primero hay que crear un nuevo repositorio dentro de github.
 #### Aparecerán estas 2 líneas, el remote add origin es para dejar puesto las credenciales del repositorio.
 #### git remote add origin https://github.com/oscar8232003/udemy-heroes.git.
