@@ -1,4 +1,4 @@
-# Ciudades {#ciudad}
+# Ciudades
 
 1. Ciudad Gótica
 2. Metrópolis
@@ -22,6 +22,6 @@ Un gran **poder requiere** una gran responsabilidad
 
 ![Alt](http://www.imagen.com.mx/assets/img/imagen_share.png)
 
-[Texto largo](#ciudad)
+[Texto largo](#Ciudades)
 
 [Ir a la imagen](http://www.imagen.com.mx/assets/img/imagen_share.png)
