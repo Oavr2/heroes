@@ -1,6 +1,6 @@
-# Recordatorio personalizado sobre el uso de Git y GitHub.
+# Recordatorio personalizado sobre el uso de Git y GitHub :octocat:
 
-## Temario
+## Temario :pencil:
 1. [Comenzando nuestra área de trabajo](#1-comenzando-nuestra-área-de-trabajo)
 2. [Identificandonos](#2-identificandonos)
 3. [Examinando el historial y los estados](#3-examinando-el-historial-y-los-estados-log-status-show-reflog)
@@ -41,7 +41,7 @@
 
 [Volver al inicio](#temario)
 
-## 2 Identificandonos.
+## 2 Identificandonos:person_with_blond_hair::woman:
 
 #### git config --global user.name "Oscar" 
 > Sirve para identificarse con un nombre.
@@ -52,7 +52,7 @@
 
 [Volver al inicio](#temario)
 
-## 3 Examinando el historial y los estados (log, status, show, reflog).
+## 3 Examinando el historial y los estados (log, status, show, reflog):coffee:
  
 #### git log 
 > Muestra los commit hechos desde el último hasta el más reciente.
