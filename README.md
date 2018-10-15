@@ -1,7 +1,7 @@
 # Recordatorio personalizado sobre el uso de Git y GitHub.
 
 ## Temario
-1. [Comenzando nuestra área de trabajo](#comenzando-nuestra-área-de-trabajo)
+1. [Comenzando nuestra área de trabajo](#1-comenzando-nuestra-área-de-trabajo)
 2. Identificandonos
 3. Examinando el historial y los estados
    * log
