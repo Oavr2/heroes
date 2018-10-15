@@ -1,9 +1,35 @@
 # Recordatorio personalizado sobre el uso de Git y GitHub.
 
 ## Temario
-1. [Comenzando nuestra área de trabajo](#comenzando nuestra área de trabajo)
+1. [Comenzando nuestra área de trabajo](#comenzando-nuestra-área-de-trabajo)
+2. Identificandonos
+3. Examinando el historial y los estados
+   * log
+   * status
+   * show 
+   * reflog
+4. Trabajando con Git
+   * add
+   * mv
+   * reset
+   * reflog 
+   * rm
+   * commit
+5. Ignorando Archivos.
+6. Trabajando con Ramas
+   * branch
+   * checkout
+   * diff
+   * tags
+   * rebase
+7. Trabajando colaborativamente
+   * fetch
+   * pull
+   * push
+8. Shortcuts
+9. GITHUB
 
-## Comenzando nuestra área de trabajo.
+## 1 Comenzando nuestra área de trabajo.
 #### git help 
 > Sirve para ver información de ayuda en git pero general.
 #### git help comando 
@@ -13,7 +39,7 @@
 #### git init   
 > Crea un repositorio vacío en la carpeta.
 
-## Identificandonos.
+## 2 Identificandonos.
 
 #### git config --global user.name "Oscar" 
 > Sirve para identificarse con un nombre.
@@ -22,7 +48,7 @@
 #### grit config --global -e 
 > Sirve para ver la información global de nuestro repositorio(si quieren salir es :q sin guardar).
 
-## Examinando el historial y los estados (log, status, show, reflog).
+## 3 Examinando el historial y los estados (log, status, show, reflog).
  
 #### git log 
 Muestra los commit hechos desde el último hasta el más reciente.
@@ -37,7 +63,7 @@ Sirve para ver el historial de logs, esta todo lo que se ha hecho, sirve para re
 #### git rm directorio.html 
 Remueve del proyecto el archivo escogido.
 
-## Trabajando con Git (add, mv, reset, reflog, rm, commit).
+## 4 Trabajando con Git (add, mv, reset, reflog, rm, commit).
 
 #### git add -- . 
 Agrega todos los elementos a la carpeta git con el .
@@ -74,12 +100,13 @@ Devuelve todo a una versión que uno escoja, tener en cuenta que esto borra todo
 #### git rm archivo 
 Borra un archivo, tener en cuenta que para que esto surta efecto hay que hacer un add y commit después de removerlo.
 
-## Ignorando Archivos.
+## 5 Ignorando Archivos.
 #### Para poder ignorar archivos que no encontremos que sean relevantes subir al repositorio se crea un archivo .gitignore dentro de la raíz del proyecto.
 #### Después dentro del archivo se pone los archivos que se quieran ignorar, pueden ser archivos, directorios, etc.
 #### Si quieres ignorar un conjunto de archivos puedes poner la extensión de los archivos que quieras ignorar.
 
-## Trabajando con Ramas (branch, checkout, diff, tags, rebase).
+## 6 Trabajando con Ramas (branch, checkout, diff, tags, rebase).
+
 #### git branch 
 Verifica las ramas creadas.
 #### git branch nombre_rama  
@@ -117,7 +144,8 @@ Si se está en la rama master se ocupa este comando para dejar a nombre_rama ant
 #### git rebase master 
 Si se está en la rama nombre_rama se puede ocupar este comando.
 
-## Trabajando colaborativamente (fetch, pull, push).
+## 7 Trabajando colaborativamente (fetch, pull, push).
+
 #### fetch     
 Comprueba si hay cambios en el repositorio remoto ante nuestro repo local.
 #### pull       
@@ -125,7 +153,7 @@ Si hay cambios en el repositorio remoto y no los tienes en el local, con el pull
 #### push       
 Actualizamos el repositorio remoto con información de tu repositorio local.
 
-## Shortcuts (Atajos!).
+## 8 Shortcuts (Atajos!).
 
 #### git config --global alias.nombre_alias "comando" 
 Creamos un shortcut personalizado
@@ -135,7 +163,7 @@ Sirve para ver las configuraciones globales(:q para salir)
 Crea un comando que al digitar lg es la abreviación de toda la sentencia que está entre comillas, este comando sirve para reemplazar el log.
 #### git config --global alias.s “status -s -b” 
 
-## GITHUB.
+## 9 GITHUB.
 
 #### Primero hay que crear un nuevo repositorio dentro de github.
 #### Aparecerán estas 2 líneas, el remote add origin es para dejar puesto las credenciales del repositorio.
