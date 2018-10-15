@@ -2,32 +2,32 @@
 
 ## Temario
 1. [Comenzando nuestra área de trabajo](#1-comenzando-nuestra-área-de-trabajo)
-2. Identificandonos
-3. Examinando el historial y los estados
+2. [Identificandonos](#2-identificandonos)
+3. [Examinando el historial y los estados](#3-examinando-el-historial-y-los-estados-log-status-show-reflog)
    * log
    * status
    * show 
    * reflog
-4. Trabajando con Git
+4. [Trabajando con Git](#4-trabajando-con-git-add-mv-reset-reflog-rm-commit)
    * add
    * mv
    * reset
    * reflog 
    * rm
    * commit
-5. Ignorando Archivos.
-6. Trabajando con Ramas
+5. [Ignorando Archivos](#5-ignorando-archivos)
+6. [Trabajando con Ramas](#6-trabajando-con-ramas-branch-checkout-diff-tags-rebase)
    * branch
    * checkout
    * diff
    * tags
    * rebase
-7. Trabajando colaborativamente
+7. [Trabajando colaborativamente](#7-trabajando-colaborativamente-fetch-pull-push)
    * fetch
    * pull
    * push
-8. Shortcuts
-9. GITHUB
+8. [Shortcuts](#8-shortcuts-atajos)
+9. GITHUB(#9-github)
 
 ## 1 Comenzando nuestra área de trabajo.
 #### git help 
