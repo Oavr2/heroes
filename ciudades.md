@@ -22,6 +22,6 @@ Un gran **poder requiere** una gran responsabilidad
 
 ![Alt](http://www.imagen.com.mx/assets/img/imagen_share.png)
 
-[Texto largo](#Ciudades)
+[Texto largo](#ciudades)
 
 [Ir a la imagen](http://www.imagen.com.mx/assets/img/imagen_share.png)
